@@ -1,7 +1,7 @@
 {
   "name": "@ufersa/eslint-config-sabia",
   "description": "JavaScript Sabiá Style - ESLint Shareable Config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Mateus Sampaio <mateus4k@protonmail.ch>",
   "bugs": {
     "url": "https://github.com/ufersa/eslint-config-sabia/issues"
