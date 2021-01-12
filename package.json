@@ -1,77 +1,52 @@
 {
-  "name": "eslint-config-standard",
-  "description": "JavaScript Standard Style - ESLint Shareable Config",
-  "version": "16.0.2",
+  "name": "eslint-config-sabia",
+  "description": "JavaScript Sabiá Style - ESLint Shareable Config",
+  "version": "1.0.0",
   "author": {
-    "name": "Feross Aboukhadijeh",
-    "email": "feross@feross.org",
-    "url": "https://feross.org"
+    "name": "Mateus Sampaio",
+    "email": "mateus4k@protonmail.ch"
   },
   "bugs": {
-    "url": "https://github.com/standard/eslint-config-standard/issues"
+    "url": "https://github.com/ufersa/eslint-config-sabia/issues"
   },
   "devDependencies": {
-    "eslint": "^7.12.1",
+    "@10up/eslint-config": "^2.1.1",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-cypress": "^2.11.2",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "tape": "^5.0.1"
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-jsdoc": "^31.0.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "tape": "^5.1.1"
   },
-  "homepage": "https://github.com/standard/eslint-config-standard",
+  "homepage": "https://github.com/ufersa/eslint-config-sabia",
   "keywords": [
-    "JavaScript Standard Style",
-    "check",
-    "checker",
-    "code",
-    "code checker",
-    "code linter",
-    "code standards",
-    "code style",
-    "enforce",
-    "eslint",
-    "eslintconfig",
-    "hint",
-    "jscs",
-    "jshint",
-    "lint",
-    "policy",
-    "quality",
-    "simple",
-    "standard",
-    "standard style",
-    "style",
-    "style checker",
-    "style linter",
-    "verify"
+    "JavaScript Sabiá Style"
   ],
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": "^7.12.1",
+    "eslint": "^7.17.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/standard/eslint-config-standard.git"
+    "url": "git://github.com/ufersa/eslint-config-sabia.git"
   },
   "scripts": {
     "lint": "eslint . --config=eslintrc.json",
     "test": "npm run lint && tape test/*.js"
   },
-  "funding": [
-    {
-      "type": "github",
-      "url": "https://github.com/sponsors/feross"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/feross"
-    },
-    {
-      "type": "consulting",
-      "url": "https://feross.org/support"
-    }
-  ]
+  "dependencies": {
+    "babel-eslint": "^10.1.0"
+  }
 }

@@ -1,24 +1,20 @@
-# eslint-config-standard [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+# eslint-config-sabia [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard/master.svg
-[travis-url]: https://travis-ci.org/standard/eslint-config-standard
-[npm-image]: https://img.shields.io/npm/v/eslint-config-standard.svg
-[npm-url]: https://npmjs.org/package/eslint-config-standard
-[downloads-image]: https://img.shields.io/npm/dm/eslint-config-standard.svg
-[downloads-url]: https://npmjs.org/package/eslint-config-standard
-[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[travis-image]: https://img.shields.io/travis/ufersa/eslint-config-sabia/master.svg
+[travis-url]: https://travis-ci.org/ufersa/eslint-config-sabia
+[npm-image]: https://img.shields.io/npm/v/eslint-config-sabia.svg
+[npm-url]: https://npmjs.org/package/eslint-config-sabia
+[downloads-image]: https://img.shields.io/npm/dm/eslint-config-sabia.svg
+[downloads-url]: https://npmjs.org/package/eslint-config-sabia
+[standard-image]: https://img.shields.io/badge/code_style-sabia-brightgreen.svg
 [standard-url]: https://standardjs.com
 
-#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for [JavaScript Standard Style](http://standardjs.com)
-
-[![JavaScript Style Guide - Standard Style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
+#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for JavaScript Sabia Style
 
 ## Install
 
-This module is for advanced users. You probably want to use [`standard`](http://standardjs.com) instead :)
-
 ```bash
-npm install eslint-config-standard
+npm install eslint-config-sabia
 ```
 
 ## Usage
@@ -41,14 +37,14 @@ The above steps will automatically set up an ESLint configuration and install th
 **If you want to set up the config manually**, run the following command:
 
 ```bash
-npm install --save-dev eslint-config-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+npm install --save-dev eslint-config-sabia eslint-plugin-promise eslint-plugin-import eslint-plugin-node
 ```
 
 Then, add this to your `.eslintrc` file:
 
 ```
 {
-  "extends": "standard"
+  "extends": "sabia"
 }
 ```
 
@@ -56,13 +52,6 @@ Then, add this to your `.eslintrc` file:
 
 You can override settings from the shareable config by adding them directly into your
 `.eslintrc` file.
-
-### Looking for something easier than this?
-
-The easiest way to use JavaScript Standard Style to check your code is to use the
-[`standard`](http://standardjs.com) package. This comes with a global
-Node command line program (`standard`) that you can run or add to your `npm test` script
-to quickly check your style.
 
 ## Badge
 
@@ -80,12 +69,3 @@ let people know that your code is using the standard style.
 ```markdown
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 ```
-
-## Learn more
-
-For the full listing of rules, editor plugins, FAQs, and more, visit the main
-[JavaScript Standard Style repo](http://standardjs.com).
-
-## License
-
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
