@@ -1,11 +1,8 @@
 {
-  "name": "eslint-config-sabia",
+  "name": "@ufersa/eslint-config-sabia",
   "description": "JavaScript Sabiá Style - ESLint Shareable Config",
   "version": "1.0.0",
-  "author": {
-    "name": "Mateus Sampaio",
-    "email": "mateus4k@protonmail.ch"
-  },
+  "author": "Mateus Sampaio <mateus4k@protonmail.ch>",
   "bugs": {
     "url": "https://github.com/ufersa/eslint-config-sabia/issues"
   },
@@ -24,7 +21,8 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
-    "tape": "^5.1.1"
+    "tape": "^5.1.1",
+    "babel-eslint": "^10.1.0"
   },
   "homepage": "https://github.com/ufersa/eslint-config-sabia",
   "keywords": [
@@ -48,7 +46,7 @@
     "lint": "eslint . --config=eslintrc.json",
     "test": "npm run lint && tape test/*.js"
   },
-  "dependencies": {
-    "babel-eslint": "^10.1.0"
+  "directories": {
+    "test": "test"
   }
 }
