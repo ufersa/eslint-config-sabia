@@ -14,7 +14,7 @@
 ## Install
 
 ```bash
-npm install eslint-config-sabia
+npm install @ufersa/eslint-config-sabia
 ```
 
 ## Usage
