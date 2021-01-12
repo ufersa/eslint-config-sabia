@@ -28,7 +28,9 @@
   },
   "homepage": "https://github.com/ufersa/eslint-config-sabia",
   "keywords": [
-    "JavaScript Sabiá Style"
+    "JavaScript Sabiá Style",
+    "eslint",
+    "eslintconfig"
   ],
   "license": "MIT",
   "main": "index.js",
